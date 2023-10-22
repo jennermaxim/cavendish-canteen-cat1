@@ -11,7 +11,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(./img/image5.jpeg);
+    url(./img/bg.jpeg);
   background-size: cover;
   background-position: center;
   height: 640px;
@@ -243,6 +243,74 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+/* CHATBOT SECTION */
+.chatbot-section {
+  position: fixed;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+}
+
+.chatbot-section img {
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.chatbot-section p {
+  background-color: #1d3465;
+  color: #d1d3d4;
+  padding: 1.5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Conversation box section */
+.conversation-box {
+  position: relative;
+  border: none;
+  border-radius: 0.5rem;
+  /* bottom: 5%;
+    right: 2%; */
+}
+
+.closebutton {
+  display: none;
+  background-color: #1d3465;
+  position: fixed;
+  bottom: 450px;
+  right: 2%;
+  /* display: flex; */
+  justify-content: end;
+  align-items: center;
+  width: 350px;
+  padding: 0 0rem;
+  padding-bottom: 0.75rem;
+  /* padding-top: .5rem; */
+}
+
+.closebutton > p {
+  color: #d1d3d4;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.35rem 0.75rem;
+}
+
+/* Style the chatbot itself  */
+.chatbot-box {
+  display: none;
+  position: fixed;
+  border: none;
+  border-top: solid 1px #d1d3d4;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  bottom: 5%;
+  right: 2%;
+}
+
 .footer {
   padding: 100px;
   background-color: #39434c;
@@ -280,6 +348,12 @@ main {
   color: white;
 }
 
+/* IMAGES */
+.div-1-2 img, .div-2-1 img, .div-3-2 img, .div-5-2 img{
+  width: 500px;
+  height: 400px;
+}
+
 /* RESPONSIVENESS CODES */
 @media screen and (max-width: 600px) {
   .header .top-nav {
@@ -290,7 +364,7 @@ main {
     width: 100%;
   }
 
-  .header .top-nav .left-nav li a{
+  .header .top-nav .left-nav li a {
     padding: 10px;
   }
 
@@ -298,7 +372,7 @@ main {
     display: none;
   }
 
-  .header .welcome h1{
+  .header .welcome h1 {
     font-size: 30px;
   }
 }
