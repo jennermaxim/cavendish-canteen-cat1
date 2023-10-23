@@ -382,4 +382,38 @@ main {
   .header .welcome h1 {
     font-size: 30px;
   }
+
+  /* TO REVIEW FOR ALL */
+  .header .welcome .form{
+    display: flex;
+  }
+
+  .header .welcome .form input{
+    width: 65%;
+  }
+
+  .header .welcome .form button{
+    padding: 5px;
+  }
+
+  main{
+    padding: 20px;
+  }
+
+  .div-1{
+    display: block;
+  }
+
+  .div-1-1{
+    width: 100%;
+  }
+
+  .div-1-2{
+    padding: 20px 0 0 0;
+    width: 100%;
+  }
+
+  .div-1-2 img{
+    width: 100%;
+  }
 }
