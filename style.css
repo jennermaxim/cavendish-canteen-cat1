@@ -373,6 +373,10 @@ main {
   color: #f08b18;
 }
 
+.footer .dev a:hover{
+  color: #ffb45e;
+}
+
 /* RESPONSIVENESS CODES */
 @media screen and (max-width: 600px) {
   .header .top-nav {
