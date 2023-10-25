@@ -397,15 +397,18 @@ main {
   }
 
   main{
+    width: 100%;
     padding: 20px;
+    overflow: hidden;
   }
 
-  .div-1{
+  .div-1, .div-2, .div-3, .div-4, .div-5{
     display: block;
   }
 
-  .div-1-1{
+  .div-1-1, .div-2-2, .div-3-1, .div-4-2, .div-5-1{
     width: 100%;
+    padding: 0;
   }
 
   .div-1-2{
@@ -413,7 +416,36 @@ main {
     width: 100%;
   }
 
-  .div-1-2 img{
+  .div-1-2 img, .div-2-1 img, .div-3-2 img, .div-4-1 img, .div-5-2 img{
     width: 100%;
+  }
+
+  .div-2, .div-3, .div-4, .div-5{
+    padding-top: 20px;
+  }
+
+  .div-3-2, .div-5-2{
+    padding: 0;
+  }
+
+  .div-6{
+    padding-top: 20px;
+  }
+
+  .div-8 p{
+    padding-top: 20px;
+  }
+
+  .form-1{
+    padding-top: 20px;
+    display: flex;
+  }
+
+  .form-1 input{
+    width: 60%;
+  }
+
+  .form-1 button{
+    padding: 10px;
   }
 }
