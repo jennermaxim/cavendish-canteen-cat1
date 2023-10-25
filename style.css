@@ -490,6 +490,10 @@ main {
   }
 
   .footer .flex-container .contacts p{
+    color: #fff;
+  }
+
+  .footer .flex-container .contacts p{
     width: 100%;
     word-wrap: break-word;
   }
