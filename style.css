@@ -206,7 +206,7 @@ main {
   padding-top: 0px;
 }
 
-.div-4-2 .it{
+.div-4-2 .it {
   display: none;
 }
 
@@ -358,22 +358,25 @@ main {
 }
 
 /* IMAGES */
-.div-1-2 img, .div-2-1 img, .div-3-2 img, .div-5-2 img{
+.div-1-2 img,
+.div-2-1 img,
+.div-3-2 img,
+.div-5-2 img {
   width: 500px;
   height: 400px;
 }
 
-.footer .dev{
+.footer .dev {
   text-align: center;
   margin-top: 20px;
   color: #fff;
 }
 
-.footer .dev a{
+.footer .dev a {
   color: #f08b18;
 }
 
-.footer .dev a:hover{
+.footer .dev a:hover {
   color: #ffb45e;
 }
 
@@ -400,101 +403,117 @@ main {
   }
 
   /* TO REVIEW FOR ALL */
-  .header .welcome .form{
+  .header .welcome .form {
     display: flex;
   }
 
-  .header .welcome .form input{
+  .header .welcome .form input {
     width: 65%;
   }
 
-  .header .welcome .form button{
+  .header .welcome .form button {
     padding: 5px;
   }
 
-  main{
+  main {
     width: 100%;
     padding: 20px;
     overflow: hidden;
   }
 
-  .div-1, .div-2, .div-3, .div-4, .div-5{
+  .div-1,
+  .div-2,
+  .div-3,
+  .div-4,
+  .div-5 {
     display: block;
   }
 
-  .div-1-1, .div-2-2, .div-3-1, .div-4-2, .div-5-1{
+  .div-1-1,
+  .div-2-2,
+  .div-3-1,
+  .div-4-2,
+  .div-5-1 {
     width: 100%;
     padding: 0;
   }
 
-  .div-1-2{
+  .div-1-2 {
     padding: 20px 0 0 0;
     width: 100%;
   }
 
-  .div-1-2 img, .div-2-1 img, .div-3-2 img, .div-4-1 img, .div-5-2 img{
+  .div-1-2 img,
+  .div-2-1 img,
+  .div-3-2 img,
+  .div-4-1 img,
+  .div-5-2 img {
     width: 100%;
   }
 
-  .div-2, .div-3, .div-4, .div-5{
+  .div-2,
+  .div-3,
+  .div-4,
+  .div-5 {
     padding-top: 20px;
   }
 
-  .div-3-2, .div-5-2{
+  .div-3-2,
+  .div-5-2 {
     padding: 0;
   }
 
-  .div-6{
+  .div-6 {
     padding-top: 20px;
   }
 
-  .div-8 p{
+  .div-8 p {
     padding-top: 20px;
   }
 
-  .form-1{
+  .form-1 {
     padding-top: 20px;
     display: flex;
   }
 
-  .form-1 input{
+  .form-1 input {
     width: 60%;
   }
 
-  .form-1 button{
+  .form-1 button {
     padding: 10px;
   }
 
-  .chatbot-section img{
+  .chatbot-section img {
     width: 50px;
   }
 
-  .chatbot-section p{
+  .chatbot-section p {
     display: none;
   }
 
-  .footer{
+  .footer {
     padding: 10px;
   }
 
-  .footer .flex-container{
+  .footer .flex-container {
     display: block;
   }
 
-  .footer .flex-container .copy-right{
+  .footer .flex-container .copy-right {
     padding: 10px;
   }
 
-  .footer .flex-container .contacts{
+  .footer .flex-container .contacts {
     padding: 10px;
   }
 
-  .footer .flex-container .contacts p{
-    color: #fff;
-  }
-
-  .footer .flex-container .contacts p{
+  .footer .flex-container .contacts p {
     width: 100%;
     word-wrap: break-word;
+  }
+
+  .footer .flex-container .contacts a {
+    color: #fff;
   }
 }
