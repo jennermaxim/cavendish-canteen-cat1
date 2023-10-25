@@ -319,7 +319,7 @@ main {
 }
 
 .footer {
-  padding: 100px;
+  padding: 50px 50px 20px 50px;
   background-color: #39434c;
 }
 .footer-container {
@@ -359,6 +359,16 @@ main {
 .div-1-2 img, .div-2-1 img, .div-3-2 img, .div-5-2 img{
   width: 500px;
   height: 400px;
+}
+
+.footer .dev{
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.footer .dev a{
+  color: #f08b18;
 }
 
 /* RESPONSIVENESS CODES */
@@ -447,5 +457,34 @@ main {
 
   .form-1 button{
     padding: 10px;
+  }
+
+  .chatbot-section img{
+    width: 50px;
+  }
+
+  .chatbot-section p{
+    display: none;
+  }
+
+  .footer{
+    padding: 10px;
+  }
+
+  .footer .flex-container{
+    display: block;
+  }
+
+  .footer .flex-container .copy-right{
+    padding: 10px;
+  }
+
+  .footer .flex-container .contacts{
+    padding: 10px;
+  }
+
+  .footer .flex-container .contacts p{
+    width: 100%;
+    word-wrap: break-word;
   }
 }
